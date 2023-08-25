@@ -1,7 +1,7 @@
 <script>
-    import Header from '$lib/Header.svelte';
-    import Footer from '$lib/Footer.svelte';
-    import Nav from '$lib/Nav.svelte';
+    import Header from '$lib/header.svelte';
+    import Footer from '$lib/footer.svelte';
+    import Nav from '$lib/nav.svelte';
 </script>
 
 <svelte:head>
