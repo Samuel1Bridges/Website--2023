@@ -8,6 +8,7 @@
     color: white;
     display: flex;
     align-items: center;
+    border-bottom: 3px solid white;
 
   }
 
