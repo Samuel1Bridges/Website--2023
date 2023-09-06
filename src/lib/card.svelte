@@ -4,189 +4,296 @@
 <style>
 
     /* Grid css*/
-    .perent
+    .parent
     {
         display: grid;
-        height: 479px;
+        height: 25%;
+        padding: 10px 10px 50px 10px;
     }
     
     .child
     {
-        background-color: red;
-        border: 2px solid white;
-        overflow: hidden;
+        border: 2px solid black;
+        margin: 5px;
     }
     
-    .perent2
+    .parent2
     {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     
-    .perent3
+    .parent3
     {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .parent4
+    {
+        grid-template-columns: 1fr 1fr 1fr;
     }
     
     /* card fliping css*/
-    .overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
-}
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
-}
+    .overlay 
+    {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.7);
+        transition: opacity 500ms;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .overlay:target 
+    {
+        visibility: visible;
+        opacity: 1;
+    }
 
-.popup {
-  margin: 70px auto;
-  padding: 20px;
-  background: #fff;
-  border-radius: 5px;
-  width: 30%;
-  position: relative;
-  transition: all 5s ease-in-out;
-}
+    .popup
+    {
+        margin: 70px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 5px;
+        width: 30%;
+        position: relative;
+        transition: all 5s ease-in-out;
+    }
 
-.popup h2 {
-  margin-top: 0;
-  color: #333;
-  font-family: Tahoma, Arial, sans-serif;
-}
-.popup .close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  transition: all 200ms;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #333;
-}
-.popup .close:hover {
-  color: #06D85F;
-}
-.popup .content {
-  max-height: 30%;
-  overflow: auto;
-}
+    .popup h2 
+    {
+        margin-top: 0;
+        color: #333;
+        font-family: Tahoma, Arial, sans-serif;
+    }
+    .popup .close 
+    {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+    }
 
-@media screen and (max-width: 700px){
-  .box{
-    width: 70%;
-  }
-  .popup{
-    width: 70%;
-  }
-}
+    .button
+    {
+        width: 100%; height: 700px;
+    }
+
+    .images
+    {
+        position: relative;
+        width: 100%;
+    }
+
+
+    li
+    {
+        list-style-type:none;
+        font-size: 25;
+    }
+
+    @media screen and (max-width: 1500px)
+    {
+    .box
+    {
+            width: 70%;
+    }
+    .popup
+    {
+            width: 70%;
+    }
+
+    .parent
+    {
+        height: 25%;
+        padding: 20px 10% 10px 10%;
+    }
+
+    .parent2
+    {
+            grid-template-columns: 1fr;
+    }
+    .parent3
+    {
+            grid-template-columns: 1fr;
+    }
+
+    .parent4
+    {
+         grid-template-columns: 1fr;
+    }
+
+
+    .button
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    }
     </style>
     
 
 
-    <div class = "perent perent2">
+    <div class = "parent parent2">
         <div class = child>
-            <a class = "button" href="#popup1"><img alt = "Hulur races" src="/race-images/hyur.png" style="width: 678px; height: 700px;"/></a>
+
+            <a href="#popup1"><img alt = "Hulur races" src="/race-images/hyur.png" class = "button"/></a>
             <div id="popup1" class="overlay">
                 <div class="popup">
+                    <img alt = "Hulur races" src="/race-images/hyur.png" class = "images"/>
                     <h2>Hyur 'Human'</h2>
                     <a class="close" href="#">&times;</a>
                     <div class="content">
-                        god help em
+
+                        Details:
+                        <li>Homeland: </li>
+                        <li>Population:</li>
+                        <li>Gender: Male / Female</li>
+                         Desciption: 
+
                     </div>
                 </div>
             </div>
+
         </div>
         <div class = child>
-            <a class = "button" href="#popup2"><img alt = "miqo-te" src="/race-images/miqo-te.png" style="width: 678px; height: 700px;"/></a>
+            <a  href="#popup2"><img alt = "miqo-te" src="/race-images/miqo-te.png" class = "button"/></a>
             <div id="popup2" class="overlay">
                 <div class="popup">
+                    <img alt = "miqo-te" src="/race-images/miqo-te.png" class="images"/>
                     <h2>Miqo-te</h2>
                     <a class="close" href="#">&times;</a>
                     <div class="content">
-                        god help em
+                        Details:
+                        - Homeland:
+                        - Population
+                        - Gender: Male / Female
+                        Desciption: 
+
                     </div>
                 </div>
             </div>    
         </div>
         <div class = child> 
-            <a class = "button" href="#popup3"><img alt = "elezen" src="/race-images/elezen.png" style="width: 678px; height: 700px;"/></a>
+            <a  href="#popup3"><img alt = "elezen" src="/race-images/elezen.png" class = "button"/></a>
             <div id="popup3" class="overlay">
                 <div class="popup">
+                    <img alt = "elezen" src="/race-images/elezen.png" class = "images"/>
                     <h2>Elezen</h2>
                     <a class="close" href="#">&times;</a>
                     <div class="content">
-                        god help em
+                        Details:
+                        - Homeland:
+                        - Population
+                        - Gender: Male / Female
+                        Desciption: 
+
                     </div>
                 </div>
             </div>    
         </div>
 
-        <div class = child> 
-            <a class = "button" href="#popup4"><img alt = "lalafell" src="/race-images/lalafell.png" style="width: 678px; height: 700px;"/></a>
-            <div id="popup4" class="overlay">
+
+    </div>
+
+    <div class = "parent parent3">
+        <div class = child>
+            <a  href="#popup5"><img alt = "au-ra" src="/race-images/au-ra.png"class = "button"/></a>
+            <div id="popup5" class="overlay">
                 <div class="popup">
-                    <h2>Elezen</h2>
+                    <img alt = "au-ra" src="/race-images/au-ra.png"class = "images"/>
+                    <h2>Au-ra</h2>
                     <a class="close" href="#">&times;</a>
                     <div class="content">
-                        god help em
+                        Details:
+                        - Homeland:
+                        - Population
+                        - Gender: Male / Female
+                        Desciption: 
+
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <div class = child>
+            <a  href="#popup6"><img alt = "roegadyn" src="/race-images/roegadyn.jpg" class = "button"/></a>
+            <div id="popup6" class="overlay">
+                <div class="popup">
+                    <img alt = "roegadyn" src="/race-images/roegadyn.jpg" class = "images"/>
+                    <h2>Roegadyn</h2>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        Details:
+                        - Homeland:
+                        - Population
+                        - Gender: Male / Female
+                        Desciption: 
+
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <div class = child>
+            <a  href="#popup7"><img alt = "viera" src="/race-images/viera.png" class = "button"/></a>
+            <div id="popup7" class="overlay">
+                <div class="popup">
+                    <img alt = "viera" src="/race-images/viera.png" class = "images"/>
+                    <h2>Viera</h2>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        Details:
+                        - Homeland:
+                        - Population
+                        - Gender: Male / Female
+                        Desciption: 
+
                     </div>
                 </div>
             </div>   
         </div>
     </div>
 
-    <div class = "perent perent3">
-        <div class = child>
-            <a class = "button" href="#popup5"><img alt = "au-ra" src="/race-images/au-ra.png" style="width: 678px; height: 700px;"/></a>
-            <div id="popup5" class="overlay">
-                <div class="popup">
-                    <h2>Au-ra</h2>
-                    <a class="close" href="#">&times;</a>
-                    <div class="content">
-                        god help em
-                    </div>
-                </div>
-            </div>   
-        </div>
-        <div class = child>
-            <a class = "button" href="#popup6"><img alt = "roegadyn" src="/race-images/roegadyn.jpg" style="width: 678px; height: 700px;"/></a>
-            <div id="popup6" class="overlay">
-                <div class="popup">
-                    <h2>Roegadyn</h2>
-                    <a class="close" href="#">&times;</a>
-                    <div class="content">
-                        god help em
-                    </div>
-                </div>
-            </div>   
-        </div>
-        <div class = child>
-            <a class = "button" href="#popup7"><img alt = "viera" src="/race-images/viera.png" style="width: 678px; height: 700px;"/></a>
-            <div id="popup7" class="overlay">
-                <div class="popup">
-                    <h2>Viera</h2>
-                    <a class="close" href="#">&times;</a>
-                    <div class="content">
-                        god help em
-                    </div>
-                </div>
-            </div>   
-        </div>
+    <div class = "parent parent4">
+
         <div class = child> 
-            <a class = "button" href="#popup7"><img alt = "hrothgar" src="/race-images/hrothgar.png" style="width: 678px; height: 700px;"/></a>
-            <div id="popup7" class="overlay">
+            <a X href="#popup4"><img alt = "lalafell" src="/race-images/lalafell.png" class = "button"/></a>
+            <div id="popup4" class="overlay">
                 <div class="popup">
-                    <h2>Hrothgar</h2>
-                    <!-- svelte-ignore a11y-invalid-attribute -->
+                    <img alt = "lalafell" src="/race-images/lalafell.png" class = "images"/>
+                    <h2>Elezen</h2>
                     <a class="close" href="#">&times;</a>
                     <div class="content">
-                        god help em
+                        Details:
+                        - Homeland:
+                        - Population
+                        - Gender: Male / Female
+                        Desciption: 
+
+                    </div>
+                </div>
+            </div>   
+        </div>
+
+        <div class = child> 
+            <a href="#popup7"><img alt = "hrothgar" src="/race-images/hrothgar.png"  class = "button" /></a>
+            <div id="popup7" class="overlay">
+                <div class="popup">
+                    <img alt = "hrothgar" src="/race-images/hrothgar.png"  class = "images" />
+                    <h2>Hrothgar</h2>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        Details:
+                        - Homeland:
+                        - Population:
+                        - Gender: Male
+                        Desciption: 
+
                     </div>
                 </div>
             </div>
