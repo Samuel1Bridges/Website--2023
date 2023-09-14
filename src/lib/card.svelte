@@ -3,28 +3,32 @@
  </script>
 <style>
 
+
     /* Grid css*/
     .parent
     {
         display: grid;
         height: 10%;
-        padding: 10px 10px 50px 10px;
+        padding: 10px 10px 20px 10px;
+
+
     }
     
     .child
     {
         border: 2px solid black;
         margin: 5px;
+        
     }
     
     .parent2
     {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 25% 25% 25% 25%;
     }
     
     .parent3
     {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 25% 25% 25% 25%;
     }
     .parent4
     {
@@ -79,18 +83,20 @@
         color: #333;
     }
 
+
+
+
     .button
     {
-        width: 100%; height: 700px;
+        width: 100%; height: 100%;
     }
 
     .images
     {
         position: relative;
-        width: 100%;
-        height: 15%;
+        width:100%;
+        height: 50%;
     }
-
 
     li
     {
@@ -98,7 +104,12 @@
         font-size: 25;
     }
 
-    @media screen and (max-width: 1500px)
+
+
+ 
+
+
+    @media screen and (max-width: 1100px)
     {
     .box
     {
@@ -112,21 +123,21 @@
     .parent
     {
         height: 25%;
-        padding: 20px 10% 10px 10%;
+        padding: 5px 10% 0px 10%;
     }
 
     .parent2
     {
-            grid-template-columns: 1fr;
+            grid-template-columns: auto auto;
     }
     .parent3
     {
-            grid-template-columns: 1fr;
+            grid-template-columns: auto auto;
     }
 
     .parent4
-    {
-         grid-template-columns: 1fr;
+    { 
+         grid-template-columns: auto auto;
     }
 
 
@@ -204,7 +215,24 @@
             </div>    
         </div>
 
+        <div class = child> 
+            <a X href="#popup8"><img alt = "lalafell" src="/race-images/lalafell.png" class = "button"/></a>
+            <div id="popup8" class="overlay">
+                <div class="popup">
+                    <img alt = "lalafell" src="/race-images/lalafell.png" class = "images"/>
+                    <h2>Elezen</h2>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        Details:
+                        <li>Homeland: </li>
+                        <li>Population:</li>
+                        <li>Gender: Male / Female</li>
+                         Desciption: 
 
+                    </div>
+                </div>
+            </div>   
+        </div>
     </div>
 
     <div class = "parent parent3">
@@ -263,28 +291,7 @@
                 </div>
             </div>   
         </div>
-    </div>
 
-    <div class = "parent parent4">
-
-        <div class = child> 
-            <a X href="#popup8"><img alt = "lalafell" src="/race-images/lalafell.png" class = "button"/></a>
-            <div id="popup8" class="overlay">
-                <div class="popup">
-                    <img alt = "lalafell" src="/race-images/lalafell.png" class = "images"/>
-                    <h2>Elezen</h2>
-                    <a class="close" href="#">&times;</a>
-                    <div class="content">
-                        Details:
-                        <li>Homeland: </li>
-                        <li>Population:</li>
-                        <li>Gender: Male / Female</li>
-                         Desciption: 
-
-                    </div>
-                </div>
-            </div>   
-        </div>
 
         <div class = child> 
             <a href="#popup9"><img alt = "hrothgar" src="/race-images/hrothgar.png"  class = "button" /></a>
@@ -304,4 +311,11 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class = "parent parent4">
+
+
+
+
     </div>

@@ -4,11 +4,12 @@
   nav
   {
     height: 80px;
+
     background-color: black;
     color: white;
     display: flex;
     align-items: center;
-    border-bottom: 3px solid white;
+    border-bottom: 2px solid white;
 
   }
 
