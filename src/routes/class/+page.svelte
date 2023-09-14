@@ -1,1 +1,7 @@
-<h1>Class</h1>
+<script>
+    import Chunks from '$lib/chunks.svelte';
+</script>
+
+
+
+<Chunks/>

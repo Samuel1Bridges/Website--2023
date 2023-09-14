@@ -7,7 +7,7 @@
     .parent
     {
         display: grid;
-        height: 25%;
+        height: 10%;
         padding: 10px 10px 50px 10px;
     }
     
@@ -88,6 +88,7 @@
     {
         position: relative;
         width: 100%;
+        height: 15%;
     }
 
 
@@ -156,6 +157,11 @@
                         <li>Population:</li>
                         <li>Gender: Male / Female</li>
                          Desciption: 
+                         Over the course of some one thousand years and three great migratory waves, the
+                          Hyur have come to be the most populous of the civilized races in Eorzea. Compared 
+                          to the others, theirs is an average physique, both in terms of height and build. The Hyur champion personal freedom 
+                         and liberty, and their espousal of an eclectic variety of languages and traditions is a legacy of their diverse heritage―as
+                          is their resulting lack of a unified cultural identity.
 
                     </div>
                 </div>
@@ -171,10 +177,10 @@
                     <a class="close" href="#">&times;</a>
                     <div class="content">
                         Details:
-                        - Homeland:
-                        - Population
-                        - Gender: Male / Female
-                        Desciption: 
+                        <li>Homeland: </li>
+                        <li>Population:</li>
+                        <li>Gender: Male / Female</li>
+                         Desciption: 
 
                     </div>
                 </div>
@@ -189,11 +195,10 @@
                     <a class="close" href="#">&times;</a>
                     <div class="content">
                         Details:
-                        - Homeland:
-                        - Population
-                        - Gender: Male / Female
-                        Desciption: 
-
+                        <li>Homeland: </li>
+                        <li>Population:</li>
+                        <li>Gender: Male / Female</li>
+                         Desciption: 
                     </div>
                 </div>
             </div>    
@@ -212,9 +217,10 @@
                     <a class="close" href="#">&times;</a>
                     <div class="content">
                         Details:
-                        - Homeland:
-                        - Population
-                        - Gender: Male / Female
+                        <li>Homeland: </li>
+                        <li>Population:</li>
+                        <li>Gender: Male / Female</li>
+                         Desciption: le
                         Desciption: 
 
                     </div>
@@ -230,10 +236,10 @@
                     <a class="close" href="#">&times;</a>
                     <div class="content">
                         Details:
-                        - Homeland:
-                        - Population
-                        - Gender: Male / Female
-                        Desciption: 
+                        <li>Homeland: </li>
+                        <li>Population:</li>
+                        <li>Gender: Male / Female</li>
+                         Desciption: 
 
                     </div>
                 </div>
@@ -248,10 +254,10 @@
                     <a class="close" href="#">&times;</a>
                     <div class="content">
                         Details:
-                        - Homeland:
-                        - Population
-                        - Gender: Male / Female
-                        Desciption: 
+                        <li>Homeland: </li>
+                        <li>Population:</li>
+                        <li>Gender: Male / Female</li>
+                         Desciption: 
 
                     </div>
                 </div>
@@ -262,18 +268,18 @@
     <div class = "parent parent4">
 
         <div class = child> 
-            <a X href="#popup4"><img alt = "lalafell" src="/race-images/lalafell.png" class = "button"/></a>
-            <div id="popup4" class="overlay">
+            <a X href="#popup8"><img alt = "lalafell" src="/race-images/lalafell.png" class = "button"/></a>
+            <div id="popup8" class="overlay">
                 <div class="popup">
                     <img alt = "lalafell" src="/race-images/lalafell.png" class = "images"/>
                     <h2>Elezen</h2>
                     <a class="close" href="#">&times;</a>
                     <div class="content">
                         Details:
-                        - Homeland:
-                        - Population
-                        - Gender: Male / Female
-                        Desciption: 
+                        <li>Homeland: </li>
+                        <li>Population:</li>
+                        <li>Gender: Male / Female</li>
+                         Desciption: 
 
                     </div>
                 </div>
@@ -281,18 +287,18 @@
         </div>
 
         <div class = child> 
-            <a href="#popup7"><img alt = "hrothgar" src="/race-images/hrothgar.png"  class = "button" /></a>
-            <div id="popup7" class="overlay">
+            <a href="#popup9"><img alt = "hrothgar" src="/race-images/hrothgar.png"  class = "button" /></a>
+            <div id="popup9" class="overlay">
                 <div class="popup">
                     <img alt = "hrothgar" src="/race-images/hrothgar.png"  class = "images" />
                     <h2>Hrothgar</h2>
                     <a class="close" href="#">&times;</a>
                     <div class="content">
                         Details:
-                        - Homeland:
-                        - Population:
-                        - Gender: Male
-                        Desciption: 
+                        <li>Homeland: </li>
+                        <li>Population:</li>
+                        <li>Gender: Male</li>
+                         Desciption: 
 
                     </div>
                 </div>
