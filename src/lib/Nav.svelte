@@ -9,7 +9,7 @@
     color: white;
     display: flex;
     align-items: center;
-    border-bottom: 2px solid white;
+
 
   }
 

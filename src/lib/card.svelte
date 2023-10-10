@@ -237,10 +237,10 @@
 
     <div class = "parent parent3">
         <div class = child>
-            <a  href="#popup5"><img alt = "au-ra" src="/race-images/au-ra.png"class = "button"/></a>
+            <a  href="#popup5"><img alt = "au-ra" src="/race-images/au-rab.jpg"class = "button"/></a>
             <div id="popup5" class="overlay">
                 <div class="popup">
-                    <img alt = "au-ra" src="/race-images/au-ra.png"class = "images"/>
+                    <img alt = "au-ra" src="/race-images/au-rab.jpg"class = "images"/>
                     <h2>Au-ra</h2>
                     <a class="close" href="#">&times;</a>
                     <div class="content">
@@ -274,10 +274,10 @@
             </div>   
         </div>
         <div class = child>
-            <a  href="#popup7"><img alt = "viera" src="/race-images/viera.png" class = "button"/></a>
+            <a  href="#popup7"><img alt = "viera" src="/race-images/veira.jpg" class = "button"/></a>
             <div id="popup7" class="overlay">
                 <div class="popup">
-                    <img alt = "viera" src="/race-images/viera.png" class = "images"/>
+                    <img alt = "viera" src="/race-images/veira.jpg" class = "images"/>
                     <h2>Viera</h2>
                     <a class="close" href="#">&times;</a>
                     <div class="content">
@@ -294,10 +294,10 @@
 
 
         <div class = child> 
-            <a href="#popup9"><img alt = "hrothgar" src="/race-images/hrothgar.png"  class = "button" /></a>
+            <a href="#popup9"><img alt = "hrothgar" src="/race-images/hrothgarb.jpg"  class = "button" /></a>
             <div id="popup9" class="overlay">
                 <div class="popup">
-                    <img alt = "hrothgar" src="/race-images/hrothgar.png"  class = "images" />
+                    <img alt = "hrothgar" src="/race-images/hrothgarb.jpg"  class = "images" />
                     <h2>Hrothgar</h2>
                     <a class="close" href="#">&times;</a>
                     <div class="content">

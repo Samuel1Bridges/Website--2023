@@ -13,6 +13,11 @@
         font-size: 100px;
         color:red;
     }
+    
+    body
+    {
+        background-color: black;
+    }
 </style>
 
 <video controls autoplay muted >
