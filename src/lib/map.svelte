@@ -1,49 +1,7 @@
 
 
 
-<style>
-.innerbox{
-    position: absolute;
-    width: 100%;
-    height: 500px;
-    border: 2px solid black;
-}
 
-.outerbox{
-    position: absolute;
-    width: 50%;
-    height: 500px;
-    left: 25%;
-    top: 25%;
-}
-
-.leftbox{
-    position: absolute;
-    width: 24%;
-    height: 100%;
-    border: 5px solid black;
-}
-.rightbox{
-    position: absolute;
-    right: -25%;
-    width: 24%;
-    height: 100%;
-    border: 5px solid black;
-}
-.mapimg{
-    width: 100%;
-    height: 100%;
-}
-
-.maptitle{
-    position: absolute;
-    left:40%;
-    top: -65px;
-    
-}
-
-
-</style>
 <div class = "outerbox">
     <h1 class = "maptitle">Map of Eorzea</h1>
     <div class = "innerbox">
@@ -51,6 +9,60 @@
     </div>
 </div>
 
-<div class = "leftbox">
+<div class = "leftad">
 
 </div>
+
+<div class = "rightad">
+
+</div>
+
+<style>
+    .innerbox{
+        position: absolute;
+        width: 100%;
+        height: 500px;
+        border: 2px solid black;
+    }
+    
+    .outerbox{
+        position: absolute;
+        width: 50%;
+        height: 500px;
+        left: 25%;
+        top: 25%;
+    }
+    
+    
+    .mapimg{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .maptitle{
+        position: absolute;
+        left:40%;
+        top: -65px;
+        
+    }
+    
+    .leftad{
+        border: 5px solid black;
+        position: absolute;
+        right: 30px;
+        top:200px;
+        width: 200px;
+        height: 600px;
+    }
+
+    .rightad{
+        border: 5px solid black;
+        position: relative;
+        left:30px;
+        top:120px;
+        width: 200px;
+        height: 600px;
+
+    }
+    
+    </style>

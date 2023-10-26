@@ -32,10 +32,7 @@
     color: azure;
     
   }
-  button:hover
-  {
-    background-color: gray;
-  }
+
 </style>
 
 <nav>
@@ -45,9 +42,8 @@
 </div>
 
 <div class = "right-nav-menu">
-<button><a href="/">Home</a></button>
-<button><a href="race/">Race</a></button>
-<button><a href="class/">Class</a></button>
-<button><a href="map/">Map</a></button>
+<a href="/">Home</a>
+<a href="race/">Race</a>
+<a href="map/">Map</a>
 </div>
 </nav>
