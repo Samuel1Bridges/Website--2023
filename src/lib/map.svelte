@@ -1,4 +1,14 @@
+<script>
+    import { onMount } from 'svelte';
+    const token = `ocwYBAfaFxwIHfppGg9UwjsT7iTJUguvbC4i9qK4A9g`;
+    const url = `https://api.unsplash.com`;
 
+
+    onMount(() =>{
+        fetch(`${url}/search/photos?query=cats&client_id=`)
+
+    })
+</script>
 
 
 
