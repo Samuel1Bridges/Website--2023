@@ -3,10 +3,14 @@
     const token = `ocwYBAfaFxwIHfppGg9UwjsT7iTJUguvbC4i9qK4A9g`;
     const url = `https://api.unsplash.com`;
 
-
+    let adimgs = [];
     onMount(() =>{
-        fetch(`${url}/search/photos?query=cats&client_id=`)
-
+        fetch(`${url}/search/photos?query=cats&client_id=ocwYBAfaFxwIHfppGg9UwjsT7iTJUguvbC4i9qK4A9g`)
+        .then(res => res.json)
+        .then(res => console.log(res))
+        .then(data => {
+            adimgs = data.results;
+        })
     })
 </script>
 
@@ -24,8 +28,9 @@
 </div>
 
 <div class = "rightad">
-
+    
 </div>
+
 
 <style>
     .innerbox{

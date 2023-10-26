@@ -10,7 +10,6 @@
     display: flex;
     align-items: center;
 
-
   }
 
 
@@ -18,19 +17,15 @@
   {
     margin-left: auto;
   }
-  button
-  {
-    border: 2px solid white;
-    background-color: black;
-    padding: 5px;
-    margin: 5px;
-  }
+
   a
   {
     text-decoration: none;
     font-size: 20px;
     color: azure;
-    
+    margin-right: 15px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid white;
   }
 
 </style>
