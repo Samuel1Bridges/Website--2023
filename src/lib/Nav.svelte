@@ -1,4 +1,18 @@
 
+
+
+<nav>
+<div class = "left-logo">
+  Final Fantasy 14
+</div>
+
+<div class = "right-nav-menu">
+<a href="/">Home</a>
+<a href="race/">Race</a>
+<a href="map/">Map</a>
+</div>
+</nav>
+
 <style>
 
   nav
@@ -29,16 +43,3 @@
   }
 
 </style>
-
-<nav>
-
-<div class = "left-logo">
-  Final Fantasy 14
-</div>
-
-<div class = "right-nav-menu">
-<a href="/">Home</a>
-<a href="race/">Race</a>
-<a href="map/">Map</a>
-</div>
-</nav>
