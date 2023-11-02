@@ -1,44 +1,50 @@
 
+
+
+<div class = "nav">
+<img alt="Logo" src="logo/logo.png" class="logoimg"/>
+      <ul>
+          <li><a href="/">HomePage</a></li>
+          <li><a  href="/race/">Race</a></li>
+          <li><a  href="/map/">Map</a></li>
+      </ul>
+
+</div>
+
 <style>
 
-  nav
-  {
-    height: 80px;
+.nav{
+  background-color: rgba(0,0,0,0.6);
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 100px;
+}
 
-    background-color: black;
-    color: white;
-    display: flex;
-    align-items: center;
+ul{
 
-  }
+  position: fixed;
+  right: 0px;
+}
+li{
+  display: inline-block;
+  left: 1px;
+  list-style-type: none;
+  font-size: 25px;
+  color: white;
+  padding: 10px;
+  border-radius: 2px;
+  border: 2px solid white;
+  margin: 5px;
+}
 
-
-  .right-nav-menu
-  {
-    margin-left: auto;
-  }
-
-  a
-  {
-    text-decoration: none;
-    font-size: 20px;
-    color: azure;
-    margin-right: 15px;
-    padding: 5px 5px 5px 5px;
-    border: 1px solid white;
-  }
-
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+.logoimg{
+  position: absolute;
+  width: 10%;
+  height: 120%;
+}
 </style>
-
-<nav>
-
-<div class = "left-logo">
-  Final Fantasy 14
-</div>
-
-<div class = "right-nav-menu">
-<a href="/">Home</a>
-<a href="race/">Race</a>
-<a href="map/">Map</a>
-</div>
-</nav>

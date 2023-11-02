@@ -2,16 +2,19 @@
     import { onMount } from 'svelte';
     const token = `ocwYBAfaFxwIHfppGg9UwjsT7iTJUguvbC4i9qK4A9g`;
     const url = `https://api.unsplash.com`;
+    let imgs = [];
 
-    let adimgs = [];
-    onMount(() =>{
-        fetch(`${url}/search/photos?query=cats&client_id=ocwYBAfaFxwIHfppGg9UwjsT7iTJUguvbC4i9qK4A9g`)
-        .then(res => res.json)
-        .then(res => console.log(res))
-        .then(data => {
-            adimgs = data.results;
+    
+    const BASE_URL = `https://api.unsplash.com/photos/random/client_id=ocwYBAfaFxwIHfppGg9UwjsT7iTJUguvbC4i9qK4A9g`;
+    onMount(() => {
+        fetch(BASE_URL)
+        .then(function(responce){
+            return responce.json()
         })
-    })
+        .then(function(jsonData){
+            console.log(jsonData);
+        })
+    });
 </script>
 
 
@@ -24,6 +27,7 @@
 </div>
 
 <div class = "leftad">
+
 
 </div>
 
