@@ -1,6 +1,7 @@
 
 
 
+
 <div class = "nav">
 <img alt="Logo" src="logo/logo.png" class="logoimg"/>
       <ul>
@@ -10,6 +11,7 @@
       </ul>
 
 </div>
+
 
 <style>
 
@@ -38,6 +40,7 @@ li{
   margin: 5px;
 }
 
+
 a{
   text-decoration: none;
   color: whitesmoke;
@@ -47,4 +50,5 @@ a{
   width: 10%;
   height: 120%;
 }
+
 </style>
