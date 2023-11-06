@@ -33,4 +33,16 @@
 </div>
 
 <style>
+  .outerbox{
+    border: 3px solid black;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+
+  }
+
+  .innerbox{
+    
+  }
 </style>
