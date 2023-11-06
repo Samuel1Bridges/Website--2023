@@ -1,10 +1,3 @@
-
-<video controls autoplay muted >
-    <source src="/video/final-fantasy.mp4" type="video/mp4" class = mp4v >
-        Your browser does not support the video tag.
-        <h1>Final Fantasy 14</h1>
-</video>
-
 <style>
     video
     {
@@ -33,8 +26,7 @@
         left: 50%;
         transform: translate(-50%,-50%);   
     }
-    h1{
-        
+    h1{   
         color: white;
         font-size: 65px;
         border: 2px solid white;
