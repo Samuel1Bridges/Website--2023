@@ -187,6 +187,7 @@
 
   .parent2 {
     grid-template-columns: 25% 25% 25% 25%;
+    padding-top: 5%;
   }
 
   .parent3 {
@@ -232,7 +233,7 @@
   .popup .close {
     position: absolute;
     top: 20px;
-    right: 30px;
+    right: 30px; 
     transition: all 200ms;
     font-size: 30px;
     font-weight: bold;
@@ -271,6 +272,7 @@
 
     .parent2 {
       grid-template-columns: auto auto;
+      padding-top: 15%;
     }
     .parent3 {
       grid-template-columns: auto auto;
